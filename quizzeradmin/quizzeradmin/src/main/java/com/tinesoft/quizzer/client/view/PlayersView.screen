@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" x="80" width="561" height="553" text="Welcome,Users,Categories,Questions" measuredWidth="561" measuredHeight="553" selection="1"/>
+  <widgets xsi:type="model:Panel" x="144" y="49" width="433" height="182" measuredWidth="433" measuredHeight="182" alpha="0"/>
+  <widgets xsi:type="model:Table" x="160" y="58" width="401" height="112" text="Selection,ID,First Name,Last Name,Registration v,Connexion v&#xA;[],1,Peter,Severin,12/05/2010,12/15/2008&#xA;[x],2,Cristina,Severin,10/12/2009,10/11/2010&#xA;[],3,...,...,...,...&#xA;" measuredWidth="401" measuredHeight="112" selection="2">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Group" x="144" y="240" width="433" height="289" text="User Profile" measuredWidth="433" measuredHeight="289"/>
+  <widgets xsi:type="model:Button" x="491" y="189" text="New User" measuredWidth="70" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="160" y="189" text="Delete" measuredWidth="53" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="265" width="109" text="First Name" measuredWidth="109" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="328" width="109" text="Birth Date" measuredWidth="109" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="297" width="109" text="Last Name" measuredWidth="109" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="360" width="107" text="Login" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="265" width="121" text="Tine" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="297" width="121" text="KONDO" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="328" width="121" text="06/06/1988" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="360" width="121" text="tinesoft" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="392" width="121" text="********" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="340" y="424" width="121" text="x@y.com" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="392" width="107" text="Password" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="424" width="107" text="Email" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="267" y="495" text="Update" measuredWidth="58" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" x="340" y="457" text="Yes" measuredWidth="38" measuredHeight="23" selected="true"/>
+  <widgets xsi:type="model:RadioButton" x="384" y="457" text="No" measuredWidth="36" measuredHeight="23"/>
+  <widgets xsi:type="model:Label" x="216" y="457" width="107" text="Admin" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="49"/>
+  </vRuler>
+  <font/>
+</model:Screen>

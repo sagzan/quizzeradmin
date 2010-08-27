@@ -1,0 +1,799 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>
+Method Dependencies for Initially Live Code
+</title>
+<style type="text/css" media="screen">
+@import url('goog.css');
+@import url('inlay.css');
+@import url('soyc.css');
+</style>
+</head>
+<body>
+<div class="g-doc">
+<div id="hd" class="g-section g-tpl-50-50 g-split">
+<div class="g-unit g-first">
+<p>
+<a href="index.html" id="gwt-logo" class="soyc-ir"><span>Google Web Toolkit</span></a>
+</p>
+</div>
+<div class="g-unit">
+</div>
+</div>
+<div id="soyc-appbar-lrg">
+<div class="g-section g-tpl-75-25 g-split">
+<div class="g-unit g-first">
+<h1>Method Dependencies for Initially Live Code</h1>
+</div>
+<div class="g-unit"></div>
+</div>
+</div>
+<div id="bd">
+<h2>Showing Package: com.tinesoft.quizzer.client.widget.gwt</h2>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyButton"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyButton</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyButton</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyButton::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyButton::$MyButton</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyButton::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyButton::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyButton::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyCheckBox"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyCheckBox</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.PlayerProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.PlayerProfileView::$PlayerProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$PlayerProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox::$MyCheckBox</li>
+<li>com.tinesoft.quizzer.client.view.PlayerProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.PlayerProfileView::$PlayerProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$PlayerProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyCheckBox::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyLabel"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyLabel</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyLabel</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.LoginView::$LoginView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$LoginView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyLabel::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyLabel::$MyLabel</li>
+<li>com.tinesoft.quizzer.client.view.LoginView::$LoginView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$LoginView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyLabel::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyLabel::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyLabel::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyListBox"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyListBox</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyListBox::$MyListBox</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox::$setSelectedValue</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.presenter.QuestionProfilePresenter::$fillForm</li>
+<li>com.tinesoft.quizzer.client.presenter.QuestionProfilePresenter::$onSelectQuestion</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$selectQuestion</li>
+<li>com.tinesoft.quizzer.client.presenter.QuestionsListPresenter::$selectQuestion</li>
+<li>com.tinesoft.quizzer.client.presenter.QuestionsListPresenter$TableClickHandler::onClick</li>
+<li>com.tinesoft.quizzer.client.presenter.QuestionsListPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyListBox::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.LoginView::$LoginView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$LoginView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox::$MyPasswordTextBox</li>
+<li>com.tinesoft.quizzer.client.view.LoginView::$LoginView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$LoginView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyPasswordTextBox::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyTabPanel"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyTabPanel</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$createView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel::$MyTabPanel</li>
+<li>com.tinesoft.quizzer.client.view.RootView::$createView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$createView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTabPanel::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyTable"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyTable</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyTable::$MyTable</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::$selectRow</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$selectCategory</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$TableClickHandler::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::$unSelectRow</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$selectCategory</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$TableClickHandler::onClick</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::dispatch</li>
+<li>com.google.gwt.event.dom.client.ClickEvent::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTable::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<a name="com.tinesoft.quizzer.client.widget.gwt.MyTextBox"><h3 class="soyc-class-header">Class: com.tinesoft.quizzer.client.widget.gwt.MyTextBox</a></h3>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTextBox</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTextBox::$clinit</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.widget.gwt.MyTextBox::$MyTextBox</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$$init</li>
+<li>com.tinesoft.quizzer.client.view.QuestionProfileView::$QuestionProfileView</li>
+<li>com.mvp4g.client.Mvp4gGinjectorImpl::$create_Key$type$com$tinesoft$quizzer$client$view$QuestionProfileView$_annotation$$none$$</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTextBox::$getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTextBox::getClass</a>
+<ul class="soyc-call-stack-list">
+<li>com.google.gwt.core.client.JavaScriptObject::getClass__devirtual$</li>
+<li>com.google.gwt.user.client.rpc.impl.ClientSerializationStreamWriter::$getObjectTypeSignature</li>
+<li>com.google.gwt.user.client.rpc.impl.AbstractSerializationStreamWriter::$writeObject</li>
+<li>com.tinesoft.quizzer.model.domain.BaseDomain_FieldSerializer::serialize</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::registerMethods</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_TypeSerializer::$CategoryService_TypeSerializer</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$clinit</li>
+<li>com.tinesoft.quizzer.client.service.CategoryService_Proxy::$CategoryService_Proxy</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+<div class='main'>
+<a class='toggle soyc-call-stack-link' onclick='toggle.call(this)'><span class='calledBy'> Call stack: </span>com.tinesoft.quizzer.client.widget.gwt.MyTextBox::getMyWidget</a>
+<ul class="soyc-call-stack-list">
+<li>com.tinesoft.quizzer.client.view.RootView::$setCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::$onChangeCategoriesTabWidgetTopRight</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$changeCategoriesTabWidgetTopRight</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::$onSuccess</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter$1::onSuccess</li>
+<li>com.google.gwt.user.client.rpc.AsyncCallback::$clinit</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$getCategories</li>
+<li>com.tinesoft.quizzer.client.presenter.CategoriesListPresenter::$onTabSelected</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$tabSelected</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter$1::onBeforeSelection</li>
+<li>com.tinesoft.quizzer.client.presenter.RootPresenter::bindView</li>
+<li>com.mvp4g.client.presenter.LazyPresenter::bind</li>
+<li>com.mvp4g.client.event.BaseEventHandler::$isActivated</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl$2::$start</li>
+<li>com.mvp4g.client.Mvp4gModuleImpl::$createAndStartModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin::$loadModule</li>
+<li>com.tinesoft.quizzer.client.QuizzerAdmin$1::execute</li>
+<li>com.google.gwt.user.client.IncrementalCommand::$clinit</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
