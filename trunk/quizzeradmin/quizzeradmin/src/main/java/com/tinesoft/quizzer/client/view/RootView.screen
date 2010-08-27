@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:TabbedPane" x="80" width="561" height="553" text="Welcome,Users,Categories,Questions" measuredWidth="561" measuredHeight="553" selection="0"/>
+  <widgets xsi:type="model:Group" x="192" y="184" width="313" height="201" text="Login" measuredWidth="313" measuredHeight="201"/>
+  <widgets xsi:type="model:Label" x="208" y="232" width="107" text="Login" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="326" y="232" width="121" text="tinesoft" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" x="326" y="264" width="121" text="********" measuredWidth="121" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="208" y="264" width="107" text="Password" measuredWidth="107" measuredHeight="23" textAlignment="Right">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="240" y="304" width="75" text="OK" measuredWidth="75" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" x="326" y="304" width="75" text="Cancel" measuredWidth="75" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" x="216" y="96" text="Welcome on Quizzer Admin" measuredWidth="252" measuredHeight="33">
+    <font size="14" bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler>
+    <guides position="49"/>
+  </vRuler>
+  <font/>
+</model:Screen>

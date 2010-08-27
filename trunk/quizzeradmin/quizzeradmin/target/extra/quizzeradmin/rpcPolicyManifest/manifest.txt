@@ -1,0 +1,6 @@
+# Module quizzeradmin
+# RPC service class, partial path of RPC policy file
+com.tinesoft.quizzer.client.service.CategoryService, 24584C5C44430A8554C15E875F2C2B1F.gwt.rpc
+com.tinesoft.quizzer.client.service.LoginService, 10188D4FA94EE0B12588EDA2C03E72B7.gwt.rpc
+com.tinesoft.quizzer.client.service.PlayerService, A3A0CD7F4CB9FCAA801F2CD17489CCE4.gwt.rpc
+com.tinesoft.quizzer.client.service.QuestionService, CDEA1436E1849D1B5009C59331D6CAD4.gwt.rpc
